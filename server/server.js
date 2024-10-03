@@ -55,7 +55,7 @@ const cors = require('cors');
 const app = express()
 app.use(cors(
   {
-    origin: ["https://quiz-app-frontend-hzml.onrender.com"],
+    origin: ["https://quiz-app-frontend-nu.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
